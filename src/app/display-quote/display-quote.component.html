@@ -1,3 +1,9 @@
 <h2>Sample Quotes from QuoteFire</h2>
 
-<p *ngFor= 'let quote of quotes'>Quote of the day is '{{quote.quote}}' by {{quote.author}}</p>
+<!-- <p *ngFor= 'let quote of quotes'>Quote of the day is '{{quote.quote}}'</p>
+<button type="button" name="showmore">Show more about this quote</button> -->
+        <div *ngFor='let quote of quotes; let i= index'>
+          <p>'{{quote.quote}}'</p>
+            <button  (click)='author(i); submitter(i)'>Show more about this quote</button>
+            <app-display-quote-details *ngIf= "quote.showAuthor" [quote]='quote'></app-display-quote-details>
+        </div>
