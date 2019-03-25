@@ -16,7 +16,7 @@ export class TimeCountPipe implements PipeTransform {
     var lastPosted = dateDifferenceSeconds/secondsInADay;
 
     if (lastPosted >= 1){
-        return lastPosted + "day(s) ago";
+        return lastPosted + " day(s) ago";
     }else{
         return "today";
     }

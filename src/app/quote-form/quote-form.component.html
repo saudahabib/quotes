@@ -6,7 +6,7 @@
                <textarea  class="quotestyle" name="quote" id ="quote" rows="8" cols="50"  placeholder="Enter quote here" required [(ngModel)]="newQuote.quote" name="quote" #quote= "ngModel"></textarea>
           <br><br>
            <div [hidden]= "quote.valid||quote.pristine" class="alert alert-danger">
-             <p>Please enter quote</p>
+             <p>Wizen us O master!</p>
            </div>
          </div>
 
@@ -14,11 +14,11 @@
 
            <input type="text" id="input1" name="author" placeholder="Name of author" required [(ngModel)]="newQuote.author" name="author" #author= "ngModel" ><br><br>
            <div [hidden]= "author.valid||author.pristine" class="alert alert-danger">
-             <p>Please enter quote</p>
+             <p>Who's behind these wise words?</p>
            </div>
            <input type="text" id="input2" name="submitter" placeholder="QuoteFire username" required [(ngModel)]="newQuote.submitter" name="submitter" #submitter= "ngModel"><br><br>
            <div [hidden]= "submitter.valid||submitter.pristine" class="alert alert-danger">
-             <p>Please enter quote</p>
+             <p>What's your name honey?</p>
            </div>
            <!-- <input type="date" name="date" placeholder="Time" required ><br><br> -->
          <button type="submit" class="btn btn-outline-light" id="btn1">Submit quote</button><br><br>

@@ -5,3 +5,20 @@
   padding: 0.9rem;
   border-radius: 0.5em;
 }
+
+.deckstyle {
+  box-shadow: -5px -5px 5px #ed5769;
+}
+.card-deck {
+  font-family: 'Niconne', cursive;
+  font-size: x-large;
+  border-radius: 0.4em;
+}
+
+#btn1, #btn2, #btn3 {
+  font-size: x-large;
+}
+
+#btn3 {
+  margin-left: 10%;
+}
