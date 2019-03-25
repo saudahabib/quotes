@@ -4,3 +4,17 @@ background-image: linear-gradient(to right top, #f4ac06, #ff7c41, #ed5769, #c049
 background-color: rgba(0,0,0,0.8);
 font-family: 'Berkshire Swash', cursive;
 }
+
+nav>ul{
+  text-align:right;
+}
+
+ul>li{
+  display:inline-block;
+}
+
+nav>ul>li>a{
+  color:black;
+  text-decoration:none;
+  padding:0.9em;
+}
