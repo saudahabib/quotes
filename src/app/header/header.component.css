@@ -1,3 +1,6 @@
-h1,h3{
+.jumbotron {
 text-align: center;
-color: blue;}
+background-image: linear-gradient(to right top, #f4ac06, #ff7c41, #ed5769, #c04985, #82498e);
+background-color: rgba(0,0,0,0.8);
+font-family: 'Berkshire Swash', cursive;
+}
