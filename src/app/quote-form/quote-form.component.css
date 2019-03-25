@@ -2,3 +2,12 @@
   font-family: 'Niconne', sans-serif;
   font-size: x-large;
 }
+
+.quotestyle, #input1, #input2{
+  border: 2px solid grey;
+  box-shadow: 5px 5px 5px #ed5769;
+}
+
+#btn1, #btn2 {
+  font-size: x-large;
+}
