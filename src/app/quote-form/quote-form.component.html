@@ -1,11 +1,9 @@
+<link href="https://fonts.googleapis.com/css?family=Belleza|Berkshire+Swash|Niconne|Satisfy" rel="stylesheet">
 <div class="container-fluid">
-
-
-
-      <form  (ngSubmit) = 'submitQuote()' #quoteForm='ngForm'>
+      <form  (ngSubmit) = 'submitQuote()' #quoteForm='ngForm' id="form">
         <div class="row">
           <div class="col-md-6">
-           <textarea name="quote" id ="quote" rows="12" cols="50"  placeholder="Enter quote here" required [(ngModel)]="newQuote.quote" name="quote" #quote= "ngModel"></textarea><br><br>
+           <textarea name="quote" id ="quote" rows="8" cols="50"  placeholder="Enter quote here" required [(ngModel)]="newQuote.quote" name="quote" #quote= "ngModel"></textarea><br><br>
            <div [hidden]= "quote.valid||quote.pristine" class="alert alert-danger">
              <p>Please enter quote</p>
            </div>
@@ -20,7 +18,7 @@
              <p>Please enter quote</p>
            </div>
            <!-- <input type="date" name="date" placeholder="Time" required ><br><br> -->
-         <button type="submit">Submit quote</button>
+         <button type="submit">Submit quote</button><br><br>
          <button type="reset" name="button">New Vote</button>
 
          </div>
