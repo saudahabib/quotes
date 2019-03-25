@@ -10,6 +10,7 @@ import { HeaderComponent } from './header/header.component';
 import { DisplayQuoteComponent } from './display-quote/display-quote.component';
 import { DisplayQuoteDetailsComponent } from './display-quote-details/display-quote-details.component';
 import { TimeCountPipe } from './time-count.pipe';
+import { HighLightDirective } from './high-light.directive';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { TimeCountPipe } from './time-count.pipe';
     HeaderComponent,
     DisplayQuoteComponent,
     DisplayQuoteDetailsComponent,
-    TimeCountPipe
+    TimeCountPipe,
+    HighLightDirective
 
   ],
   imports: [
