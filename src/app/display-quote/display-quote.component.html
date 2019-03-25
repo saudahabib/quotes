@@ -10,7 +10,7 @@
       <div *ngFor='let quote of quotes; let i= index' class="card">
         <div class="card-body">
           <p>'{{quote.quote}}'</p>
-          <p>posted {{quote.timePassed|date}} ago</p>
+          <p>posted {{quote.timePassed|timeCount}}</p>
             <button  (click)='author(i); submitter(i)'>Show more about this quote</button>
             <button type="button" name="like" (click)='like(quote)'>Like</button>
             <button type="button" name="unlike" (click)='hate(quote)'>Unlike</button>
