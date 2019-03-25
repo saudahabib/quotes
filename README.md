@@ -16,6 +16,18 @@ The quotes application enables a user to input quotes, upvote, downvote or delet
 * To fork the application, click on the fork button on the top right side of yur screen.
 * Click the green 'clone or download button to get the project code on your PC'
 
+## Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
 #### No Known Bugs
 
 #### BDD (Specifications)
