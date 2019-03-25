@@ -8,6 +8,9 @@ It is a quotes application that is supposed to allow a user to input quotes, upv
 #### Description
 The quotes application enables a user to input quotes, upvote, downvote or delete quotes from their dashboard. It has a form component where the user enters the quote, name of author and their name which is then displayed on the quote display component. They click the upvote button to upvote, downvote button to downvote. When a user loses interest in a quote, they have an option to delete it. The quote with the highest upvote is displayed as 'Quote of the day'. One can also see how long the quote has been on the site.
 
+#### Live link to QuoteFire site
+
+
 #### Setup instructions
 * On your github account, search saudahabib/quotes.
 * To fork the application, click on the fork button on the top right side of yur screen.
