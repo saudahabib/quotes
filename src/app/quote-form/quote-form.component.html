@@ -1,8 +1,32 @@
-<textarea name="quote" rows="8" cols="80" form="quote-form" placeholder="Enter quote here"></textarea><br><br>
+<div class="container-fluid">
 
-<form class="form-control" id="quote-form">
-  <input type="text" name="author" placeholder="Name of author"><br><br>
-  <input type="text" name="submitter" placeholder="QuoteFire username"><br><br>
-  <input type="date" name="date" placeholder="Time"><br><br>
-<button type="button" name="button">Submit quote</button>
-</form>
+
+
+      <form  (ngSubmit) = 'submitQuote()' #quoteForm='ngForm'>
+        <div class="row">
+          <div class="col-md-6">
+           <textarea name="quote" id ="quote" rows="12" cols="50"  placeholder="Enter quote here" required [(ngModel)]="newQuote.quote" name="quote" #quote= "ngModel"></textarea><br><br>
+           <div [hidden]= "quote.valid||quote.pristine" class="alert alert-danger">
+             <p>Please enter quote</p>
+           </div>
+         </div>
+         <div class="col-md-6">
+           <input type="text" name="author" placeholder="Name of author" required [(ngModel)]="newQuote.author" name="author" #author= "ngModel" ><br><br>
+           <div [hidden]= "author.valid||author.pristine" class="alert alert-danger">
+             <p>Please enter quote</p>
+           </div>
+           <input type="text" name="submitter" placeholder="QuoteFire username" required [(ngModel)]="newQuote.submitter" name="submitter" #submitter= "ngModel"><br><br>
+           <div [hidden]= "submitter.valid||submitter.pristine" class="alert alert-danger">
+             <p>Please enter quote</p>
+           </div>
+           <!-- <input type="date" name="date" placeholder="Time" required ><br><br> -->
+         <button type="submit">Submit quote</button>
+         <button type="reset" name="button">New Vote</button>
+
+         </div>
+        </div>
+      </form>
+
+
+
+</div>

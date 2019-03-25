@@ -25,6 +25,10 @@ The quotes application enables a user to input quotes, upvote, downvote or delet
 | Show highest upvote| On click, adds a vote| Quote with highest vote is displayed|
 | Show time| On click submit button| Record and display time since quote was inputted|
 
+#### Contacts
+PLease feel free to reach out to me at:
+* saudababs00@gmail.com
+
 #### Licensing
 MIT License
 
