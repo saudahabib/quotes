@@ -2,10 +2,15 @@
 
 <!-- <p *ngFor= 'let quote of quotes'>Quote of the day is '{{quote.quote}}'</p>
 <button type="button" name="showmore">Show more about this quote</button> -->
+<link href="https://fonts.googleapis.com/css?family=Belleza|Berkshire+Swash|Niconne|Satisfy" rel="stylesheet">
   <div>
     <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
   </div>
   <div class="container-fluid">
+    <div id="dashboard">
+      <h2>View your quotes</h2>
+    </div>
+    <br><br>
     <div class="card-deck">
       <div *ngFor='let quote of quotes; let i= index' class="card">
         <div class="card-body">
