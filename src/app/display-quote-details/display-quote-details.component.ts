@@ -11,7 +11,7 @@ export class DisplayQuoteDetailsComponent implements OnInit {
   @Input () quote: Quote;
   @Output () eliminate = new EventEmitter<boolean>();
 
-  
+
   deleteQuote(complete:boolean){
     this.eliminate.emit(complete);
   }
