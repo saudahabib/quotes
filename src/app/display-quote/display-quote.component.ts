@@ -9,9 +9,9 @@ import { Quote } from '../quote'
 export class DisplayQuoteComponent implements OnInit {
 
   quotes= [
-    new Quote(1,"You know nothing","By~ Jon Snow", "Submitted by Sauda", new Date(2019,4,25), 0,0),
-    new Quote(2,"A man has many faces","By ~Valar Morghulis", "Submitted by Sauda", new Date(2019,4,25),0,0),
-    new Quote(3,"Tell Cersei, I want her to know it was me","By ~Lady Margaery", "Submitted by Sauda", new Date(2019,4,25), 0,0),
+    new Quote(1,"You know nothing","Jon Snow", "Sauda", new Date(2019,4,25), 0,0),
+    new Quote(2,"A man has many faces","Valar Morghulis", "Sauda", new Date(2019,4,25),0,0),
+    new Quote(3,"Tell Cersei, I want her to know it was me","Lady Margaery", "Sauda", new Date(2019,4,25), 0,0),
   ]
 
   addNewQuote(quote){
